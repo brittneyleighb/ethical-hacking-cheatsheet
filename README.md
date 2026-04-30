@@ -1,10 +1,10 @@
 # The Ethical Hacker's Cheat Sheet
 
-> *"Know your enemy and know yourself; in a hundred battles you will never be in peril."* — Sun Tzu
+> *"Know your enemy and know yourself; in a hundred battles you will never be in peril."* —Sun Tzu
 >
-> Pen testing is structured curiosity with permission. You are a locksmith hired to break in — not to steal, but to write a report telling the owner exactly which locks failed and how to fix them.
+> Pen testing is structured curiosity with permission. You are a locksmith hired to break in; not to steal, but to write a report telling the owner which locks failed and how to fix them.
 
-A comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester. Built for learners, maintained as a living document.
+This isa comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester.
 
 ---
 
@@ -42,7 +42,7 @@ A comprehensive reference for offensive security, ethical hacking, and the path 
 
 ## The Art of Ethical Hacking
 
-If a software developer is an architect designing buildings, a pen tester is the structural engineer who tries to knock the building over before an earthquake does. The art lies in three habits:
+The art lies in three habits:
 
 - **Curiosity over compliance.** Don't just run the scanner — ask "what would *I* try if I were paid to be malicious?" Tools find the obvious; humans find the interesting.
 - **Methodology over magic.** Every successful engagement is 80% reconnaissance and 20% exploitation. The Hollywood "type fast, hack mainframe" image is fiction. Real work is patient enumeration.
