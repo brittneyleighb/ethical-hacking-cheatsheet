@@ -457,8 +457,6 @@ Cloud-based SAST/DAST/MAST scanner used in enterprise SDLC pipelines. Common in 
 | **Commando VM** | Windows offensive distro (Mandiant) |
 | **Flare-VM** | Windows malware analysis (Mandiant) |
 
-**Pro tip:** Don't run Kali as your daily driver. Use it in a VM (VMware, VirtualBox, UTM) or on a separate machine. Snapshot before engagements.
-
 ---
 
 ## Scripting Survival Kit
