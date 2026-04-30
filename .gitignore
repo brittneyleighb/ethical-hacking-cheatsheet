@@ -1,0 +1,76 @@
+# ----- Operating system junk -----
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# ----- Editor / IDE files -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ----- Logs and temp files -----
+*.log
+*.tmp
+*.bak
+*.backup
+*.orig
+
+# ----- Python (in case you add scripts later) -----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ----- Node (in case you add JS tooling later) -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----- Security-sensitive (NEVER commit these) -----
+# Credentials, keys, secrets — pen test repo or not, these stay local
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.kdbx
+secrets.txt
+credentials.txt
+config.local.*
+
+# ----- Pen test artifacts (don't accidentally publish client data) -----
+loot/
+scans/
+captures/
+*.pcap
+*.pcapng
+*.cap
+nmap-output/
+burp-state/
+*.nessus
+hashes.txt
+cracked.txt
+target-info/
+engagement-notes/
+clients/
