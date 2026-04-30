@@ -44,7 +44,7 @@ This isa comprehensive reference for offensive security, ethical hacking, and th
 
 The art lies in three habits:
 
-- **Curiosity over compliance.** Don't just run the scanner — ask "what would *I* try if I were paid to be malicious?" Tools find the obvious; humans find the interesting.
+- **Curiosity over compliance.** Don't just run the scanner, ask "what would *I* try if I were paid to be malicious?" Tools find the obvious; humans find what's interesting.
 - **Methodology over magic.** Every successful engagement is 80% reconnaissance and 20% exploitation. The Hollywood "type fast, hack mainframe" image is fiction. Real work is patient enumeration.
 - **Documentation over ego.** A vuln you can't reproduce in writing is a vuln that doesn't exist to the client. Reports are the deliverable; the shell is the byproduct.
 
