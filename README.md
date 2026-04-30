@@ -4,7 +4,7 @@
 >
 > Pen testing is structured curiosity with permission. You are a locksmith hired to break in; not to steal, but to write a report telling the owner which locks failed and how to fix them.
 
-This isa comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester.
+This is a comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester.
 
 ---
 
