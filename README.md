@@ -6,6 +6,8 @@
 
 This is a comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester.
 
+Feel free to also check out my [Linux Command Line Cheatsheet for Ethical Hackers](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet)
+
 ---
 
 ## Table of Contents
