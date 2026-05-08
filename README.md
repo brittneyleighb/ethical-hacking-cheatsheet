@@ -6,7 +6,7 @@
 >
 > Pen testing is structured curiosity with permission. You're a locksmith hired to break in, not to steal, but to write a report telling the owner which locks failed and how to fix them.
 
-This is a comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester. You will not learn how to "hack the Gibson" by reading this. You will learn that 90% of the job is reading documentation, 9% is writing reports, and 1% is the part they put in the trailer.
+This is a comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester.
 
 Feel free to also check out my [Linux Command Line Cheatsheet for Ethical Hackers](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet).
 
