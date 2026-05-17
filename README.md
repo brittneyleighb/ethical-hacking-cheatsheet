@@ -6,7 +6,7 @@
 >
 > Pen testing is structured curiosity with permission. You're a locksmith hired to break in, not to steal, but to write a report telling the owner which locks failed and how to fix them.
 
-This is a comprehensive reference for offensive security, ethical hacking, and the path to becoming a professional pen tester.
+A reference for offensive security, ethical hacking, and the path to becoming a professional pen tester.
 
 Feel free to also check out my [Linux Command Line Cheatsheet for Ethical Hackers](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet).
 
@@ -52,7 +52,7 @@ The art lies in three habits.
 
 **Methodology over magic.** Every successful engagement is roughly 80% reconnaissance and 20% exploitation. The Hollywood image of "two people typing on one keyboard to stop the hacker" is fiction. So is the *Swordfish* scene. Real work is patient enumeration, mostly conducted from a Slack huddle.
 
-**Documentation over ego.** A vuln you can't reproduce in writing is a vuln that doesn't exist as far as the client is concerned. Reports are the deliverable. The shell is the byproduct. Nobody pays you for the shell.
+**Documentation over ego.** A vulnerability you can't reproduce in writing is a vuln that doesn't exist as far as the client is concerned. Reports are the deliverable. The shell is the byproduct. Nobody pays you for the shell.
 
 **The mindset rule:** *always have written authorization before you touch anything.* The line between "security researcher" and "felony defendant" is a signed Statement of Work. As Joshua puts it in *WarGames*: *"The only winning move is not to play."* If you don't have authorization, you don't play.
 
@@ -639,8 +639,6 @@ NIST has standardized **CRYSTALS-Kyber** (KEM), **CRYSTALS-Dilithium** (signatur
 
 ## Wi-Fi Security Testing
 
-Wireless is where the network meets the air, and air is hard to fence.
-
 ### Protocol generations
 
 * **WEP**, broken since 2001. If you find it, you're done.
@@ -720,15 +718,13 @@ Pen test means "find as many bugs as possible." Red team or adversary emulation 
 
 ### Purple Teaming
 
-Red and Blue working together, like a pilot and air-traffic controller in the same room. Faster feedback loop, shared dashboards (Vectr), explicit detection engineering.
-
-Elliot opens *Mr. Robot* with *"Hello, friend."* That's the energy of a good purple-team exercise. Less theater, more "the SOC missed it because the alert was filed under 'noise' last Tuesday."
+Red and Blue working together, like a pilot and air-traffic controller in the same room. Faster feedback loop, shared dashboards (Vectr), explicit detection engineering. 
 
 ---
 
 ## Post-Exploitation
 
-You have a shell. Now what? The goal is to prove impact and gather proof for the report. Don't damage the client. (You're not the *Hackers* gang trying to bankrupt the Da Vinci virus operator. You're the one writing the report afterward.)
+You have a shell. Now what? The goal is to prove impact and gather proof for the report. Don't damage the client. 
 
 ### Standard workflow
 
@@ -747,7 +743,7 @@ You have a shell. Now what? The goal is to prove impact and gather proof for the
 
 ## Zero-Days & Deep Security Research
 
-A zero-day is an unpatched vuln unknown to the vendor. Finding one is a *long* process. Months. Sometimes years. Nobody types `find -name vulnerability` and gets handed a CVE. (Sorry again, Hollywood.)
+A zero-day is an unpatched vulnerability unknown to the vendor. Finding one is a *long* process. Months. Sometimes years. 
 
 ### Skills required
 
@@ -765,10 +761,6 @@ A zero-day is an unpatched vuln unknown to the vendor. Finding one is a *long* p
 * Academic papers (USENIX, IEEE S&P, BlackHat, DEFCON)
 * Vendor advisories. Read every patch.
 * Project Zero blog (Google), the gold standard for write-ups
-
-### Mindset
-
-Zero-day research is a marathon. Pick a target, read its code, understand it deeper than its developers do. The bug is found by the person who reads the most, which is unfortunate news for anyone hoping this would be the glamorous part. Or, as the kid in *The Matrix* put it, *"There is no spoon."* The "feature" and the "vuln" are the same code. The only difference is whether the person reading it has a paycheck from the vendor or from someone else.
 
 ---
 
@@ -854,7 +846,7 @@ OSINT is essentially Morpheus's instruction to Neo: *"Follow the white rabbit."*
 
 ## Common Misconfigurations
 
-The "I left the keys under the welcome mat" category. Also the #1 way breaches actually happen, despite the industry's collective preference for talking about "advanced persistent threats." The boring stuff wins.
+The "I left the keys under the welcome mat" category. Also the #1 way breaches actually happen, despite the industry's collective preference for talking about "advanced persistent threats." 
 
 * Default credentials (`admin/admin`, `postgres/postgres`, `tomcat/tomcat`, still working in 2026)
 * Open S3, Azure blob, or GCS buckets
@@ -1053,9 +1045,7 @@ Roughly ordered by how much you can trust the hacking on screen.
 
 ## Things People Forget
 
-A grab-bag of "wish I'd known" items.
-
-* **Soft skills win promotions.** The senior pen testers I know read better than they hack. Your written report and your client meeting are the actual product.
+* **Soft skills win promotions.** Senior pen testers read better than they hack. Your written report and your client meeting are the actual product.
 * **Legal & ethical literacy.** Read the **Computer Fraud and Abuse Act** (US) or your country's equivalent. Know what *unauthorized access* legally means before you click.
 * **Authorization is everything.** Get scope and authorization in writing for every engagement. Bug bounty programs' Safe Harbor language matters.
 * **Note-taking discipline.** Obsidian, CherryTree, Joplin. Pick one and use it. Tag findings by ATT&CK technique.
@@ -1078,8 +1068,6 @@ A grab-bag of "wish I'd known" items.
 Pen testing is, at its core, a discipline of *honest curiosity*. You're paid to find truths the system's owners would rather not know, and to deliver those truths kindly enough that they get fixed. The hackers who last in this career aren't the ones with the flashiest exploits. They're the ones who keep learning, keep documenting, and keep their ethics intact when no one is watching.
 
 Morpheus offered Neo a choice: *"You take the blue pill, the story ends. You take the red pill, you stay in Wonderland, and I show you how deep the rabbit hole goes."* That's the deal here. Once you start noticing the broken cert on the airport WiFi and the SQL error on the PTA portal, you don't get to unsee any of it.
-
-Now go build a lab.
 
 ---
 
