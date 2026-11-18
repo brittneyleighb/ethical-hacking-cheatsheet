@@ -210,18 +210,20 @@ Each rated 1 to 10, averaged. Critiqued as subjective. Many orgs have moved on, 
 
 ## OWASP Top 10
 
-The "ten plagues" of web app security. Updated periodically. The 2021 list (current as of writing):
+The "ten plagues" of web app security. Updated periodically. The current list is the [OWASP Top 10:2025](https://top10.owasp.org/):
 
-1. **A01: Broken Access Control.** Users doing things they shouldn't (IDOR, path traversal).
-2. **A02: Cryptographic Failures.** Weak or missing encryption, plaintext secrets.
-3. **A03: Injection.** SQLi, command injection, NoSQLi, LDAP injection.
-4. **A04: Insecure Design.** Flaws baked in at the architecture stage.
-5. **A05: Security Misconfiguration.** Default creds, verbose errors, open S3 buckets.
-6. **A06: Vulnerable & Outdated Components.** Unpatched libraries (Log4Shell, et al).
-7. **A07: Identification & Authentication Failures.** Weak passwords, broken session mgmt.
-8. **A08: Software & Data Integrity Failures.** Unsigned updates, supply-chain attacks.
-9. **A09: Security Logging & Monitoring Failures.** You can't respond to what you don't see.
-10. **A10: Server-Side Request Forgery (SSRF).** Making the server fetch URLs an attacker chose.
+1. **A01: Broken Access Control.** Users doing things they shouldn't, such as through IDOR or path traversal.
+2. **A02: Security Misconfiguration.** Unsafe defaults, verbose errors, and incorrectly configured services.
+3. **A03: Software Supply Chain Failures.** Risk across dependencies, build systems, and distribution infrastructure.
+4. **A04: Cryptographic Failures.** Weak or missing encryption, plaintext secrets, or poor key handling.
+5. **A05: Injection.** SQLi, command injection, NoSQLi, LDAP injection, and related flaws.
+6. **A06: Insecure Design.** Security weaknesses baked in at the architecture stage.
+7. **A07: Authentication Failures.** Weak passwords, broken session management, and other authentication failures.
+8. **A08: Software or Data Integrity Failures.** Failures to maintain trust boundaries or verify code and data artifacts.
+9. **A09: Security Logging & Alerting Failures.** Logging without actionable alerting is not enough to support incident response.
+10. **A10: Mishandling of Exceptional Conditions.** Fail-open behavior, improper error handling, and other unsafe abnormal-condition paths.
+
+*Last verified against OWASP: 2026-11-18.*
 
 ### Sister lists worth knowing
 
@@ -237,10 +239,12 @@ The "ten plagues" of web app security. Updated periodically. The 2021 list (curr
 
 Think of it as the *Dewey Decimal System for attacker behavior*. Tactics are the "why" (columns), Techniques are the "how" (rows).
 
-**14 Tactics (Enterprise):**
-Reconnaissance, Resource Development, Initial Access, Execution, Persistence, Privilege Escalation, Defense Evasion, Credential Access, Discovery, Lateral Movement, Collection, Command and Control, Exfiltration, Impact.
+**15 Enterprise tactics:**  
+Reconnaissance, Resource Development, Initial Access, Execution, Persistence, Privilege Escalation, Stealth, Defense Impairment, Credential Access, Discovery, Lateral Movement, Collection, Command and Control, Exfiltration, and Impact.
 
-Each technique has an ID like `T1059` (Command and Scripting Interpreter). Use ATT&CK Navigator to map your engagements.
+Tactics describe the adversary's goal; techniques describe how that goal is pursued. Each technique has an ID such as `T1059` (Command and Scripting Interpreter). Use the [MITRE ATT&CK Enterprise matrix](https://attack.mitre.org/matrices/enterprise/) and ATT&CK Navigator to map authorized engagements.
+
+*Last verified against MITRE ATT&CK v20.1: 2026-11-18.*
 
 Sub-frameworks: **MITRE D3FEND** (defenders), **CAR** (Cyber Analytics Repository), **ATT&CK for ICS / Mobile / Cloud**.
 
