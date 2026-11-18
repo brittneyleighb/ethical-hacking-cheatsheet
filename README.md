@@ -18,6 +18,14 @@ For a first read: **authorization and methodology** → **core security concepts
 
 ---
 
+## Try it safely
+
+**Predict:** what should happen before you act.  
+**Try:** use a local, reversible example.  
+**Explain:** describe the result in your own words.
+
+Use an intentionally vulnerable lab or CTF only. Before touching a tool, write down the authorized scope, the asset you are testing, the behavior you expect to observe, and the evidence you would need to report a fix. That is the beginning of professional testing.
+
 ## Table of Contents
 
 1. [The Art of Ethical Hacking](#the-art-of-ethical-hacking)
