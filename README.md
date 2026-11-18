@@ -10,6 +10,12 @@ A reference for offensive security, ethical hacking, and the path to becoming a 
 
 Feel free to also check out my [Linux Command Line Cheatsheet for Ethical Hackers](https://github.com/brittneyleighb/Linux-Command-Line-Cheatsheet).
 
+## Start here: security testing is an evidence-based loop
+
+Ethical security work begins with authorization and scope, then moves through understanding a system, validating a risk safely, and reporting a fixable result. Tools matter, but they are not the method.
+
+For a first read: **authorization and methodology** → **core security concepts** → **risk scoring and standards** → **one authorized testing domain** → **defensive recommendations and reporting**. Practice only in labs or systems covered by explicit permission.
+
 ---
 
 ## Table of Contents
